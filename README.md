@@ -1,7 +1,9 @@
 #ETH Proof Beginner EVM Course Project
+
 This Solidity program contract provides basic functionalities to mint new tokens and burn existing ones, following the specified requirements.
 
 Description
+
 This repository contains a Solidity smart contract for creating custom tokens on the Ethereum blockchain. The program was created and compiled on Remix, an online Solidity IDE. https://remix.ethereum.org/.
 
 REQUIREMENTS
@@ -52,8 +54,10 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 Once the contract is deployed, you can interact with it by calling the tokenName, tokenAbbrv, totalSupply in order to check the Token Name, Abbreviation and total supply of the tokens. You can also use the mint function in order to add tokens to an address while burn function to destroy tokens of an address. Speaking of addresses, you can use a default address provided by the IDE, to do this look for a label "ACCOUNT" there you can see all the sample account provided by the IDE. Now, copy the address by clicking the "Copy account to clipboard" symbol. After copying the desired account you can now paste it on the address field of the balances, burn and mint functions then just put a value you want to mint or burn for that address. Lastly, after the fields are now populated you can now click "transact" in order to call the burn and mint functions.
 
 #Authors
+
 Siddhartha Chaurasia
 @siddh8a
 
 #License
+
 This project is licensed under the MIT License.
