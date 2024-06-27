@@ -54,12 +54,12 @@ contract EtherAss {
 ```
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option 
-is set to "0.8.26" (or another compatible version), and then click on the "Compile myToken.sol" button.
+is set to "0.8.26" (or another compatible version), and then click on the "Compile EthAss.sol" button.
 
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand
-sidebar. Select the "myToken.sol" contract from the dropdown menu, and then click on the "Deploy" button.
+sidebar. Select the "EthAss.sol" contract from the dropdown menu, and then click on the "Deploy" button.
 
-Once the contract is deployed, you can interact with it by calling the tokenName, tokenAbbrv, totalSupply in order to check the 
+Once the contract is deployed, you can interact with it by calling the tkName, tkAbbrv, totalSupply in order to check the 
 Token Name, Abbreviation and total supply of the tokens. You can also use the mint function in order to add tokens to an address 
 while burn function to destroy tokens of an address. Speaking of addresses, you can use a default address provided by the IDE,
 to do this look for a label "ACCOUNT" there you can see all the sample account provided by the IDE. Now, copy the address by clicking
